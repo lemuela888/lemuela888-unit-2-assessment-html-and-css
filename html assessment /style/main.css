@@ -24,10 +24,15 @@
 
 .navbar ul {
   display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
 }
 
 .navbar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Helvetica;
   font-size: 1.1rem;
   font-weight: lighter;
@@ -51,25 +56,26 @@
 #Home {
   display: flex;
   flex-direction: column;
-  height: 650px;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 255, 255);
+  background-image: url("Portfolio-picture.jpg");
+  background-position: center;
+  background-size: length;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 #Home::before {
-  background-image: url("./Portfolio-picture.jpg") center center/cover;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-repeat: no-repeat;
-  height: 700px;
-  width: 100%;
   z-index: -1;
   opacity: 0.8;
-}
+} 
 
 .heading {
   color: black;
@@ -179,24 +185,29 @@ footer {
   background-color: black;
 }
 
-.container {
+footer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-ul {
+footer .flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul {
   margin-bottom: 15px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-li {
+footer li {
   padding: 0 10px;
   margin-bottom: 10px;
 }
 
-i {
+footer i {
   cursor: pointer;
   font-size: 25px;
-}
+} 
