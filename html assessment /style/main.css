@@ -113,6 +113,13 @@
   }
 }
 
+.para-1 {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
 /* Work (Portfolio) Section */
 #Work {
   display: flex;
@@ -126,8 +133,22 @@
   margin: 60px;
 }
 
+.para-2 {
+  font-size: 25px;
+  text-align: center;
+}
+
 .list {
   list-style-position: inside;
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 15px;
+  border-width: 7px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -144,6 +165,18 @@
   margin: 60px;
 }
 
+.para-3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 15px;
+  border-width: 7px;
+  font-size: 25px;
+  text-align: center;
+}
+
 /* About Section */
 #About {
   display: flex;
@@ -155,6 +188,18 @@
 
 #About h1 {
   margin: 60px;
+}
+
+.para-4 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 15px;
+  border-width: 7px;
+  font-size: 25px;
+  text-align: center;
 }
 
 /* Contact Section */
